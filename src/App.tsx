@@ -5,6 +5,7 @@ import { Resultaat } from './pages/Resultaat'
 import { Dashboard } from './pages/Dashboard'
 import { Inzichten } from './pages/Inzichten'
 import { BottomNav } from './components/BottomNav'
+import { CheckinPrompt } from './components/CheckinPrompt'
 
 export default function App() {
   const { huidigScherm } = useStore()
@@ -17,6 +18,7 @@ export default function App() {
       {huidigScherm === 'dashboard' && <Dashboard />}
       {huidigScherm === 'inzichten' && <Inzichten />}
       <BottomNav />
+      <CheckinPrompt />
     </div>
   )
 }

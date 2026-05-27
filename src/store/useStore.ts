@@ -9,6 +9,7 @@ interface AppState {
   huidigScherm: 'welkom' | 'checkin' | 'resultaat' | 'dashboard' | 'inzichten'
   huidigCheckin: Partial<CheckIn> | null
   demoGeladen: boolean
+  promptAfgewezenOp: string | null // ISO-datum waarop de auto-prompt is weggeklikt
 
   setProfiel: (profiel: GebruikersProfiel) => void
   navigeerNaar: (scherm: AppState['huidigScherm']) => void
@@ -16,6 +17,7 @@ interface AppState {
   updateCheckin: (data: Partial<CheckIn>) => void
   slaCheckinOp: () => void
   laadDemoData: () => void
+  wijsPromptAf: () => void
 }
 
 export const useStore = create<AppState>()(
@@ -26,6 +28,7 @@ export const useStore = create<AppState>()(
       huidigScherm: 'welkom',
       huidigCheckin: null,
       demoGeladen: false,
+      promptAfgewezenOp: null,
 
       setProfiel: (profiel) => set({ profiel, huidigScherm: 'dashboard' }),
 
@@ -57,6 +60,9 @@ export const useStore = create<AppState>()(
         if (demoGeladen) return
         set({ checkIns: demoCheckIns, demoGeladen: true })
       },
+
+      wijsPromptAf: () =>
+        set({ promptAfgewezenOp: new Date().toISOString().split('T')[0] }),
     }),
     {
       name: 'checkin-app-storage',
@@ -64,6 +70,7 @@ export const useStore = create<AppState>()(
         profiel: state.profiel,
         checkIns: state.checkIns,
         demoGeladen: state.demoGeladen,
+        promptAfgewezenOp: state.promptAfgewezenOp,
       }),
     }
   )
