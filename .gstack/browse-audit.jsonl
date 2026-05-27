@@ -1,0 +1,35 @@
+{"ts":"2026-05-27T10:54:36.293Z","cmd":"goto","args":"http://localhost:5174","origin":"http://localhost:5174/","durationMs":569,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:54:39.468Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-welkom.png","origin":"http://localhost:5174/","durationMs":53,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:54:46.677Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":14,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:54:49.732Z","cmd":"fill","args":"@e1 Lisa de Vries","origin":"http://localhost:5174/","durationMs":17,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:54:50.122Z","cmd":"click","args":"@e2","origin":"http://localhost:5174/","durationMs":126,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:54:50.411Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-dashboard.png","origin":"http://localhost:5174/","durationMs":62,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:54:59.468Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":9,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:02.756Z","cmd":"click","args":"@e1","origin":"http://localhost:5174/","durationMs":36,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:03.046Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-stap1.png","origin":"http://localhost:5174/","durationMs":29,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:09.145Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":5,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:12.232Z","cmd":"click","args":"@e4","origin":"http://localhost:5174/","durationMs":24,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:12.498Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-stap2.png","origin":"http://localhost:5174/","durationMs":33,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:22.169Z","cmd":"js","args":"document.querySelector('input[type=range]').value = 8; document.querySelector('input[type=range]').dispatchEvent(new Event('input', {bubbles: true}))","origin":"http://localhost:5174/","durationMs":3,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:22.444Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-stap2b.png","origin":"http://localhost:5174/","durationMs":26,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:25.429Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":3,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:28.264Z","cmd":"click","args":"@e3","origin":"http://localhost:5174/","durationMs":23,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:28.555Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-stap3.png","origin":"http://localhost:5174/","durationMs":25,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:35.199Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":3,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:39.495Z","cmd":"click","args":"@e4","origin":"http://localhost:5174/","durationMs":13,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:39.750Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-stap4.png","origin":"http://localhost:5174/","durationMs":22,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:47.074Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":5,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:49.998Z","cmd":"click","args":"@e2","origin":"http://localhost:5174/","durationMs":24,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:50.279Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-stap5.png","origin":"http://localhost:5174/","durationMs":30,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:55:56.843Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":3,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:00.178Z","cmd":"click","args":"@e6","origin":"http://localhost:5174/","durationMs":17,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:00.448Z","cmd":"click","args":"@e7","origin":"http://localhost:5174/","durationMs":24,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:00.716Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-resultaat.png","origin":"http://localhost:5174/","durationMs":25,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:12.041Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":3,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:15.067Z","cmd":"click","args":"@e3","origin":"http://localhost:5174/","durationMs":82,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:15.334Z","cmd":"snapshot","args":"-i","origin":"http://localhost:5174/","durationMs":6,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:18.568Z","cmd":"click","args":"@e2","origin":"http://localhost:5174/","durationMs":26,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:18.914Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-inzichten.png","origin":"http://localhost:5174/","durationMs":74,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:26.380Z","cmd":"viewport","args":"390x844","origin":"http://localhost:5174/","durationMs":2,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:26.912Z","cmd":"goto","args":"http://localhost:5174","origin":"http://localhost:5174/","durationMs":303,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-27T10:56:27.169Z","cmd":"screenshot","args":"C:/Users/Mark/AppData/Local/Temp/checkin-mobiel.png","origin":"http://localhost:5174/","durationMs":27,"status":"ok","hasCookies":false,"mode":"launched"}

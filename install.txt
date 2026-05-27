@@ -1,0 +1,11 @@
+  Voor de demo starten
+
+  cd "C:\Projecten\Check-in app"
+  npm run dev
+
+  Open http://localhost:5174 in de browser. Op mobiel: deel de URL via --host om het ook op een echte telefoon te
+  testen:
+
+  npx vite --host
+
+  Dan verschijnt een netwerk-IP die je op een telefoon in dezelfde wifi kunt openen.
