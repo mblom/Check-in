@@ -1,0 +1,35 @@
+name: Build & push image
+
+# Bouwt bij elke push naar main het Docker-image en pusht het naar GHCR
+# (GitHub Container Registry). Portainer pullt dat image vervolgens zelf.
+# Geen extra secret nodig: GITHUB_TOKEN mag naar GHCR pushen.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Login bij GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build en push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ghcr.io/mblom/check-in:latest
+            ghcr.io/mblom/check-in:${{ github.sha }}

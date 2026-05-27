@@ -1,9 +1,8 @@
 services:
   check-in:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: check-in-app:latest
+    # Image wordt door GitHub Actions gebouwd en naar GHCR gepusht.
+    # Portainer pullt dit image; lokaal bouwen kan via de Dockerfile.
+    image: ghcr.io/mblom/check-in:latest
     container_name: check-in
     restart: unless-stopped
     ports:
