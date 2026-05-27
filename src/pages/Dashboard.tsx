@@ -97,7 +97,7 @@ export function Dashboard() {
                 <YAxis domain={[0, 10]} tick={{ fontSize: 10, fill: '#9ca3af' }} />
                 <Tooltip
                   contentStyle={{ borderRadius: 12, border: '1px solid #e5e7eb', fontSize: 12 }}
-                  formatter={(v: number) => [`${v}/10`, 'Spanning']}
+                  formatter={(v) => [`${v}/10`, 'Spanning']}
                 />
                 <Line
                   type="monotone"

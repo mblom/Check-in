@@ -1,0 +1,11 @@
+services:
+  check-in:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: check-in-app:latest
+    container_name: check-in
+    restart: unless-stopped
+    ports:
+      # host:container — pas de hostpoort (8080) aan naar wens
+      - "8080:80"

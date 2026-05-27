@@ -2,7 +2,7 @@ import { useStore } from '../store/useStore'
 import { demoCollega } from '../data/demoData'
 
 export function Resultaat() {
-  const { checkIns, huidigCheckin, navigeerNaar, updateCheckin } = useStore()
+  const { checkIns, navigeerNaar, updateCheckin } = useStore()
   const laatste = checkIns[checkIns.length - 1]
 
   if (!laatste) {

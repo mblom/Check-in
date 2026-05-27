@@ -1,0 +1,10 @@
+# Build-output (wordt in de container gebouwd, niet committen)
+dist/
+
+# Dependencies
+node_modules/
+
+# Logs / lokaal
+*.log
+.DS_Store
+.vite/
