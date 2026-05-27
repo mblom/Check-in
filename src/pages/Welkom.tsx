@@ -17,12 +17,8 @@ export function Welkom() {
       <div className="w-full max-w-sm">
         {/* Logo / badge */}
         <div className="flex flex-col items-center mb-10">
-          <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg mb-4">
-            <svg viewBox="0 0 64 64" className="w-12 h-12" fill="none">
-              <circle cx="32" cy="32" r="28" fill="#003082" />
-              <path d="M32 18 L32 34 L42 34" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="32" cy="32" r="18" stroke="white" strokeWidth="2.5" fill="none" />
-            </svg>
+          <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg mb-4 overflow-hidden">
+            <img src="/logo.jpeg" alt="WijkAgent Check-in logo" className="w-full h-full object-contain" />
           </div>
           <h1 className="text-white text-2xl font-bold text-center">WijkAgent Check-in</h1>
           <p className="text-blue-200 text-sm text-center mt-1">Jouw dagelijkse check-in. 30 seconden.</p>
