@@ -17,7 +17,7 @@ export function Welkom() {
       <div className="w-full max-w-sm">
         {/* Logo / badge */}
         <div className="flex flex-col items-center mb-10">
-          <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg mb-4 overflow-hidden">
+          <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg mb-4 overflow-hidden">
             <img src="/logo.jpeg" alt="WijkAgent Check-in logo" className="w-full h-full object-contain" />
           </div>
           <h1 className="text-white text-2xl font-bold text-center">WijkAgent Check-in</h1>
